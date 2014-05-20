@@ -1,0 +1,15 @@
+{% javascripts '@TomAtomCommonBundle/Resources/public/js/lib/jquery.1.11.1.min.js' 
+               '@TomAtomCommonBundle/Resources/public/js/lib/jquery.cycle2.min.js' 
+               '@TomAtomCommonBundle/Resources/public/js/lib/jquery.pathchange.js' 
+               '@TomAtomCommonBundle/Resources/public/js/lib/fancybox/jquery.fancybox.pack.js' 
+               '@TomAtomCommonBundle/Resources/public/js/lib/fancybox/helpers/jquery.fancybox-media.js' 
+               '@TomAtomAtomBundle/Resources/public/js/lib/raptor.min.js'
+               '@TomAtomAtomBundle/Resources/public/js/atom.js'
+     %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+
+<!--[if (lt IE 9)&(!IEMobile)]><script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+{% javascripts '@TomAtomCommonBundle/Resources/public/js/lib/css3-mediaqueries.js' %}
+    <!--[if (lt IE 9)&(!IEMobile)]><script type="text/javascript" src="{{ asset_url }}"></script><![endif]-->  
+{% endjavascripts %}
